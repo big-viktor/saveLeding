@@ -1,0 +1,17 @@
+.data {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: #e0e0e0;
+	font-size: 18px;
+	font-weight: 400;
+}
+.conatiner_data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.text_time {
+	text-transform: uppercase;
+	font-size: 12px;
+}

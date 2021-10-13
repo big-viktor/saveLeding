@@ -1,0 +1,22 @@
+.container_title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.text_title {
+	font-size: 30px;
+	color: #55554e;
+	text-transform: uppercase;
+	text-align: center;
+}
+.border_title {
+	width: 70px;
+	height: 2px;
+	background-color: #107ff6;
+}
+.content_title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

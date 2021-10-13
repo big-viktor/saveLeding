@@ -1,0 +1,116 @@
+@import 'containerBox.scss';
+@import 'checkBox.scss';
+@import 'contentCheckBox.scss';
+@import 'infoContent.scss';
+@import 'title.scss';
+@import 'time.scss';
+@import 'form.scss';
+@import 'header.scss';
+@import 'reviewBox.scss';
+@import 'footer.scss';
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.container_content {
+	width: 100%;
+}
+h3 {
+	color: #6b6b6b;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 21px;
+}
+.container_display {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.container_content_checkBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 80px;
+}
+.container__box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1100px;
+}
+.content_container_box {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.riview_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 80px;
+}
+.container__Box_review {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 1120px;
+	max-width: 100%;
+}
+.loading {
+	width: 0%;
+	max-width: 100%;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #fe551e;
+	position: fixed;
+	transition: 0.6s;
+}
+@media (max-width: 1050px) {
+	.container__Box_review {
+		padding: 0px 20px;
+	}
+}
+@media (max-width: 900px) {
+	.container_display {
+		margin-top: 80px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0px 20px;
+	}
+	.container_content_checkBox {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 80px;
+		padding: 0px 20px;
+	}
+}
+@media (max-width: 710px) {
+	.container__box {
+		padding: 0px 20px;
+	}
+	.container__Box_review {
+		padding: 0px 20px;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media (max-width: 650px) {
+	.container_display {
+		margin-top: 80px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 0px 20px;
+	}
+}

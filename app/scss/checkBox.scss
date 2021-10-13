@@ -1,0 +1,38 @@
+.container_check-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.arrow_container {
+	border: 1px solid #4187f9;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+i {
+	border: solid #4187f9;
+	width: 6px;
+	height: 13px;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+}
+.left {
+	transform: rotate(45deg);
+}
+.text_check_box {
+	color: #9d9ba9;
+	margin-left: 10px;
+}
+@media (max-width: 650px) {
+	.container_check-box {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		margin: 10px 10px;
+	}
+}
